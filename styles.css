@@ -1,0 +1,114 @@
+body {
+    font-family: "Inria Sans", sans-serif;
+    margin: 0;
+    background-color: #434343;
+    color: #ffffff;
+}
+
+h1 {
+    margin: 16px 16px 8px 16px;
+}
+
+p {
+    margin: 8px 16px;
+}
+/* NAVIGATION BANNER */
+
+#banner {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #434343;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+#logo {
+    height: inherit;
+}
+
+#nav-bar {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.nav-bar-item {
+    height: 100%;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-bar-item:hover {
+    background-color: #525252;
+}
+
+.selected-item {
+    color: #fef303;
+}
+
+#content-body {
+    margin-top: 100px;
+}
+
+/* SLOGAN BANNER */
+#slogan-banner {
+    height: 500px;
+    background-image: url(images/lightbulb.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#slogan {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #434343;
+    width: fit-content;
+    height: fit-content;
+    padding: 16px 48px;
+    border-radius: 32px;
+}
+
+/* WHO WE ARE */
+
+/* SERVICES OFFERED */
+
+.services-row {
+    display: flex;
+    justify-content: center;
+    /*margin: 32px 0 64px 0;*/
+    padding: 32px 0;
+}
+.service-container {
+    width: 240px;
+    background-color: #525252;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 32px;
+    border-radius: 16px;
+}
+
+.service-img {
+    margin: 32px;
+    width: 100px;
+}
+
+.service-text {
+    font-size: 16px;
+    margin: 0 24px 32px 28px;
+}
