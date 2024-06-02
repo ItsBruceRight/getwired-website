@@ -224,3 +224,43 @@ p {
     font-size: 16px;
     text-align: center;
  }
+
+ /* 
+/////////////////////////////
+/////// PROJECT CARDS ///////
+/////////////////////////////
+ */
+
+.projects-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 32px;
+}
+ 
+.project-card {
+    background-color: #525252;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    border-radius: 32px;
+    margin: 0 16px;
+}
+
+.project-name {
+    text-align: center;
+    margin: 0;
+}
+
+.project-img {
+    margin: 16px 0;
+    width: 640px;
+    border-radius: 16px;
+}
+
+.project-description {
+    width: 640px;
+    margin: 0;
+    text-align: center;
+}
