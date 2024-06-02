@@ -300,6 +300,8 @@ p {
     font-size: 24px;
     margin: 0 0 0 8px;
     height: fit-content;
+    color: #ffffff;
+    text-decoration: none;
  }
 
  .contact-buttons {
