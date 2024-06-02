@@ -19,7 +19,7 @@ h2 {
 }
 
 p {
-    margin: 4px 16px 0px 16px;
+    margin: 0px 16px 0px 16px;
 }
 
 /* 
@@ -133,3 +133,78 @@ p {
     font-size: 16px;
     margin: 0 24px 32px 28px;
 }
+
+/* 
+///////////////////////////////////
+/////// ACCREDITATION LOGOS ///////
+///////////////////////////////////
+ */
+
+.accreditation-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+}
+
+.accreditation-img {
+    margin: 0 64px;
+}
+
+/* 
+/////////////////////////////
+/////// MEMBER CARDS ////////
+/////////////////////////////
+ */
+
+ .members-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .member-card {
+    background-color: #525252;
+    border-radius: 32px;
+    padding: 16px;
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 20px 0;
+ }
+
+ .member-img {
+    height: 352px;
+    border-radius: 16px;
+ }
+
+ .member-info {
+    width: 512px;
+    margin: 0 0 0 8px;
+    display: flex;
+    flex-direction: column;
+ }
+
+ .member-name {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+ }
+
+ .member-job-title {
+    margin: 0;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+ }
+
+ .member-description {
+    margin: 0;
+    font-size: 16px;
+    text-align: center;
+ }
