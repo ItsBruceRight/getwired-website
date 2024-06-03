@@ -35,3 +35,19 @@ function showSlides(n, no) {
     slides[slideIndex[no] - 1].style.display = "block";
     dots[slideIndex[no] - 1].className += " active";
 }
+
+function phoneHoverOn() {
+    document.getElementById("contact-phone").src = "../images/icons/phone-filled.png";
+}
+
+function phoneHoverOff() {
+    document.getElementById("contact-phone").src = "../images/icons/phone-outlined.png";
+}
+
+function emailHoverOn() {
+    document.getElementById("contact-email").src = "../images/icons/email-filled.png";
+}
+
+function emailHoverOff() {
+    document.getElementById("contact-email").src = "../images/icons/email-outlined.png";
+}

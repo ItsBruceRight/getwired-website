@@ -65,12 +65,10 @@ p {
     text-decoration: none;
 }
 
-.nav-bar-item:hover {
-    background-color: #525252;
-}
-
-.selected-item {
+.selected-item, .nav-bar-item:hover {
     color: #fef303;
+    background-color: #525252;
+    transition: all 0.6s ease;
 }
 
 #content-body {
@@ -373,6 +371,8 @@ p {
     display: flex;
     align-items: center;
     margin: 8px 0;
+    color: #ffffff;
+    text-decoration: none;
  }
 
  .contact-img {
@@ -384,8 +384,6 @@ p {
     font-size: 24px;
     margin: 0 0 0 8px;
     height: fit-content;
-    color: #ffffff;
-    text-decoration: none;
  }
 
  .contact-buttons {
@@ -405,6 +403,7 @@ p {
  }
  .img-whatsapp:hover {
     background-image: url(images/icons/whatsapp-filled.png);
+    transition: all 0.6s ease;
  }
 
  .img-facebook {
@@ -412,6 +411,7 @@ p {
  }
  .img-facebook:hover {
     background-image: url(images/icons/facebook-filled.png);
+    transition: all 0.6s ease;
  }
 
  .img-instagram {
@@ -419,4 +419,5 @@ p {
  }
  .img-instagram:hover {
     background-image: url(images/icons/instagram-filled.png);
+    transition: all 0.6s ease;
  }
