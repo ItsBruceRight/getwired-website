@@ -10,12 +10,14 @@ h1 {
     margin: 16px 16px 0px 16px;
     font-size: 36px;
     font-weight: bold;
+    color: #fef303;
 }
 
 h2 {
     margin: 8px 16px 0px 16px;
     font-size: 24px;
     font-weight: bold;
+    color: #fef303;
 }
 
 p {
@@ -144,6 +146,7 @@ p {
 
 .service-name {
     margin: 0 0 16px 0;
+    color: #fef303;
 }
 
 .service-text {
@@ -211,6 +214,7 @@ p {
     font-size: 24px;
     font-weight: bold;
     text-align: center;
+    color: #fef303;
  }
 
  .member-job-title {
@@ -253,6 +257,7 @@ p {
 .project-name {
     text-align: center;
     margin: 0;
+    color: #fef303;
 }
 
 .project-description {
