@@ -37,17 +37,21 @@ function showSlides(n, no) {
 }
 
 function phoneHoverOn() {
-    document.getElementById("contact-phone").src = "../images/icons/phone-filled.png";
+    document.getElementById("contact-phone-img").src = "../images/icons/phone-filled.png";
+    document.getElementById("contact-phone-text").style.color = "#fef303";
 }
 
 function phoneHoverOff() {
-    document.getElementById("contact-phone").src = "../images/icons/phone-outlined.png";
+    document.getElementById("contact-phone-img").src = "../images/icons/phone-outlined.png";
+    document.getElementById("contact-phone-text").style.color = "#ffffff";
 }
 
 function emailHoverOn() {
-    document.getElementById("contact-email").src = "../images/icons/email-filled.png";
+    document.getElementById("contact-email-img").src = "../images/icons/email-filled.png";
+    document.getElementById("contact-email-text").style.color = "#fef303";
 }
 
 function emailHoverOff() {
-    document.getElementById("contact-email").src = "../images/icons/email-outlined.png";
+    document.getElementById("contact-email-img").src = "../images/icons/email-outlined.png";
+    document.getElementById("contact-email-text").style.color = "#ffffff";
 }
