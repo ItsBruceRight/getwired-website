@@ -78,7 +78,7 @@ p {
 .selected-item, .nav-bar-item:hover {
     color: var(--yellow);
     background-color: var(--med-grey);
-    transition: all 0.6s ease;
+    transition: all 0.4s ease;
 }
 
 #content-body {
@@ -94,15 +94,17 @@ p {
  */
 
 #slogan-banner {
+    margin-top: -32px;
+    margin-left: -240px;
+    margin-right: -240px;
     height: 500px;
-    width: 100%;
+    width: inherit;
     background-image: url(images/lightbulb.jpg);
     background-position: center;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -32px;
 }
 
 #slogan {
@@ -421,7 +423,7 @@ p {
  }
  .img-whatsapp:hover {
     background-image: url(images/icons/whatsapp-filled.png);
-    transition: all 0.6s ease;
+    transition: all 0.4s ease;
  }
 
  .img-facebook {
@@ -429,7 +431,7 @@ p {
  }
  .img-facebook:hover {
     background-image: url(images/icons/facebook-filled.png);
-    transition: all 0.6s ease;
+    transition: all 0.4s ease;
  }
 
  .img-instagram {
@@ -437,5 +439,5 @@ p {
  }
  .img-instagram:hover {
     background-image: url(images/icons/instagram-filled.png);
-    transition: all 0.6s ease;
+    transition: all 0.4s ease;
  }
