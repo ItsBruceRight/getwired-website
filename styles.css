@@ -94,11 +94,13 @@ p {
  */
 
 #slogan-banner {
-    margin-top: -32px;
-    margin-left: -24%;
-    margin-right: -24%;
+    margin-left: 0;
+    margin-right: 0;
+    position:absolute;
+    top: 100px;
+    left: 0;
     height: 500px;
-    width: inherit;
+    width: 100%;
     background-image: url(images/lightbulb.jpg);
     background-position: center;
     background-size: cover;
@@ -115,6 +117,10 @@ p {
     height: fit-content;
     padding: 16px 48px;
     border-radius: 32px;
+}
+
+.content-start {
+    margin-top: 600px;
 }
 
 /* 
