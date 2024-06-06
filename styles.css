@@ -459,25 +459,48 @@ p {
  }
 
  .img-whatsapp {
-    background-image: url(images/icons/whatsapp-outlined.png);
+    background-image: url(images/icons/whatsapp.png);
+    background-size: cover;
+    background-position: left;
  }
  .img-whatsapp:hover {
-    background-image: url(images/icons/whatsapp-filled.png);
-    transition: all 0.4s ease;
+    animation: fade-in 0.4s, bp-change 0.01s;
+    background-position: right;
  }
 
  .img-facebook {
-    background-image: url(images/icons/facebook-outlined.png);
+    background-image: url(images/icons/facebook.png);
+    background-size: cover;
+    background-position: left;
  }
  .img-facebook:hover {
-    background-image: url(images/icons/facebook-filled.png);
-    transition: all 0.4s ease;
+    animation: fade-in 0.4s, bp-change 0.01s;
+    background-position: right;
  }
 
  .img-instagram {
-    background-image: url(images/icons/instagram-outlined.png);
+    background-image: url(images/icons/instagram.png);
+    background-size: cover;
+    background-position: left;
  }
  .img-instagram:hover {
-    background-image: url(images/icons/instagram-filled.png);
-    transition: all 0.4s ease;
+    animation: fade-in 0.4s, bp-change 0.01s;
+    background-position: right;
  }
+
+ @keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes bp-change {
+    from {
+        background-position: left;
+    }
+    to {
+        background-position: right;
+    }
+}
