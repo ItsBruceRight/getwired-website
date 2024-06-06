@@ -83,7 +83,7 @@ p {
 
 #content-body {
     margin-top: 132px;
-    padding: 0 240px;
+    padding: 0 16%;
     min-width: 1200px;
 }
 
@@ -95,8 +95,8 @@ p {
 
 #slogan-banner {
     margin-top: -32px;
-    margin-left: -240px;
-    margin-right: -240px;
+    margin-left: -24%;
+    margin-right: -24%;
     height: 500px;
     width: inherit;
     background-image: url(images/lightbulb.jpg);
