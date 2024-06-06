@@ -398,13 +398,42 @@ p {
  .contact-img {
     width: 32px;
     height: 32px;
+    background-size: contain;
+    transition: all 0.4s ease;
+    margin: 0;
  }
 
- .contact-text {
+.contact-text {
     font-size: 20px;
     margin: 0 0 0 8px;
     height: fit-content;
+    transition: all 0.4s ease;
  }
+
+.contact-entry:hover .text-phone, .contact-entry:hover .text-email {
+    color: var(--yellow);
+}
+
+.img-phone {
+    background-image: url(images/icons/phone-outlined.png);
+ }
+.contact-entry:hover .img-phone {
+    background-image: url(images/icons/phone-filled.png);
+}
+
+.img-email {
+    background-image: url(images/icons/email-outlined.png);
+ }
+.contact-entry:hover .img-email {
+    background-image: url(images/icons/email-filled.png);
+}
+
+.img-location {
+    background-image: url(images/icons/location.png);
+ }
+.contact-entry:hover .img-location {
+    background-image: url(images/icons/location.png);
+}
 
  .contact-buttons {
     display: flex;
