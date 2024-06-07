@@ -459,48 +459,70 @@ p {
  }
 
  .img-whatsapp {
-    background-image: url(images/icons/whatsapp.png);
+    display: inline-block;
+    position: relative;
+    background: url(images/icons/whatsapp.png) no-repeat;
     background-size: cover;
-    background-position: left;
  }
- .img-whatsapp:hover {
-    animation: fade-in 0.4s, bp-change 0.01s;
+ .img-whatsapp span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: url(images/icons/whatsapp.png) no-repeat;
+    background-size: cover;
     background-position: right;
+    opacity: 0;
+    transition: all 0.4s ease;
+ }
+ .img-whatsapp:hover span {
+    background-color: var(--light-grey);
+    opacity: 1;
  }
 
  .img-facebook {
-    background-image: url(images/icons/facebook.png);
+    display: inline-block;
+    position: relative;
+    background: url(images/icons/facebook.png) no-repeat;
     background-size: cover;
-    background-position: left;
  }
- .img-facebook:hover {
-    animation: fade-in 0.4s, bp-change 0.01s;
+ .img-facebook span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: url(images/icons/facebook.png) no-repeat;
+    background-size: cover;
     background-position: right;
+    opacity: 0;
+    transition: all 0.4s ease;
+ }
+ .img-facebook:hover span {
+    background-color: var(--light-grey);
+    opacity: 1;
  }
 
  .img-instagram {
-    background-image: url(images/icons/instagram.png);
+    display: inline-block;
+    position: relative;
+    background: url(images/icons/instagram.png) no-repeat;
     background-size: cover;
-    background-position: left;
  }
- .img-instagram:hover {
-    animation: fade-in 0.4s, bp-change 0.01s;
+ .img-instagram span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: url(images/icons/instagram.png) no-repeat;
+    background-size: cover;
     background-position: right;
+    opacity: 0;
+    transition: all 0.4s ease;
  }
-
- @keyframes fade-in {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-@keyframes bp-change {
-    from {
-        background-position: left;
-    }
-    to {
-        background-position: right;
-    }
-}
+ .img-instagram:hover span {
+    background-color: var(--light-grey);
+    opacity: 1;
+ }
