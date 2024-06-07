@@ -417,10 +417,10 @@ p {
     font-size: 20px;
     margin: 0 0 0 16px;
     height: fit-content;
-    transition: all 0.4s ease;
  }
 
 .contact-entry:hover .text-phone, .contact-entry:hover .text-email {
+    transition: all 0.4s ease;
     color: var(--yellow);
 }
 
@@ -440,9 +440,9 @@ p {
     background-size: cover;
     background-position: right;
     opacity: 0;
-    transition: all 0.4s ease;
  }
  .contact-entry:hover .img-phone span {
+    transition: all 0.4s ease;
     background-color: var(--light-grey);
     opacity: 1;
  }
@@ -463,9 +463,9 @@ p {
     background-size: cover;
     background-position: right;
     opacity: 0;
-    transition: all 0.4s ease;
  }
  .contact-entry:hover .img-email span {
+    transition: all 0.4s ease;
     background-color: var(--light-grey);
     opacity: 1;
  }
@@ -503,9 +503,9 @@ p {
     background-size: cover;
     background-position: right;
     opacity: 0;
-    transition: all 0.4s ease;
  }
  .img-whatsapp:hover span {
+    transition: all 0.4s ease;
     background-color: var(--light-grey);
     opacity: 1;
  }
@@ -526,9 +526,9 @@ p {
     background-size: cover;
     background-position: right;
     opacity: 0;
-    transition: all 0.4s ease;
  }
  .img-facebook:hover span {
+    transition: all 0.4s ease;
     background-color: var(--light-grey);
     opacity: 1;
  }
@@ -549,9 +549,9 @@ p {
     background-size: cover;
     background-position: right;
     opacity: 0;
-    transition: all 0.4s ease;
  }
  .img-instagram:hover span {
+    transition: all 0.4s ease;
     background-color: var(--light-grey);
     opacity: 1;
  }
