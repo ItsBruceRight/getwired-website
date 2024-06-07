@@ -263,9 +263,6 @@ p {
     position:absolute;
     left: 0;
     right: 0;
-}
-
-.projects-row {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -276,11 +273,12 @@ p {
 .project-card {
     background-color: var(--light-grey);
     width: 496px;
+    min-width: 496px;
     padding: 16px;
     display: flex;
     flex-direction: column;
     border-radius: 32px;
-    margin: 0 16px;
+    margin: 16px 16px;
 }
 
 .project-name {
