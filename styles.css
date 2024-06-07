@@ -425,25 +425,54 @@ p {
 }
 
 .img-phone {
-    background-image: url(images/icons/phone-outlined.png);
+    display: inline-block;
+    position: relative;
+    background: url(images/icons/phone.png) no-repeat;
+    background-size: cover;
  }
-.contact-entry:hover .img-phone {
-    background-image: url(images/icons/phone-filled.png);
-}
+ .img-phone span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: url(images/icons/phone.png) no-repeat;
+    background-size: cover;
+    background-position: right;
+    opacity: 0;
+    transition: all 0.4s ease;
+ }
+ .contact-entry:hover .img-phone span {
+    background-color: var(--light-grey);
+    opacity: 1;
+ }
 
-.img-email {
-    background-image: url(images/icons/email-outlined.png);
+ .img-email {
+    display: inline-block;
+    position: relative;
+    background: url(images/icons/email.png) no-repeat;
+    background-size: cover;
  }
-.contact-entry:hover .img-email {
-    background-image: url(images/icons/email-filled.png);
-}
+ .img-email span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: url(images/icons/email.png) no-repeat;
+    background-size: cover;
+    background-position: right;
+    opacity: 0;
+    transition: all 0.4s ease;
+ }
+ .contact-entry:hover .img-email span {
+    background-color: var(--light-grey);
+    opacity: 1;
+ }
 
 .img-location {
     background-image: url(images/icons/location.png);
  }
-.contact-entry:hover .img-location {
-    background-image: url(images/icons/location.png);
-}
 
  .contact-buttons {
     display: flex;
