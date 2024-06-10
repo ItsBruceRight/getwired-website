@@ -88,7 +88,7 @@ p {
 }
 
 #content-body {
-    margin-top: 132px;
+    margin-top: 66px;
     padding: 0;
 }
 
@@ -194,7 +194,9 @@ p {
 }
 
 .accreditation-img {
-    margin: 0 64px;
+    margin: 0 16px;
+    height: 60px;
+    width: 60px;
 }
 
 /* 
@@ -208,27 +210,28 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 8px 0 0 0; 
  }
 
  .member-card {
     background-color: var(--light-grey);
-    border-radius: 32px;
-    padding: 16px;
+    border-radius: 16px;
+    padding: 8px;
     height: fit-content;
     width: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 0 20px 0;
+    margin: 0 0 16px 0;
  }
 
  .member-img {
-    height: 352px;
-    border-radius: 16px;
+    height: 176px;
+    border-radius: 8px;
  }
 
  .member-info {
-    width: 512px;
+    width: 200px;
     margin: 0 0 0 8px;
     display: flex;
     flex-direction: column;
@@ -236,7 +239,7 @@ p {
 
  .member-name {
     margin: 0;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
     color: var(--yellow);
@@ -244,7 +247,7 @@ p {
 
  .member-job-title {
     margin: 0;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: normal;
     font-style: italic;
     text-align: center;
@@ -252,7 +255,7 @@ p {
 
  .member-description {
     margin: 0;
-    font-size: 16px;
+    font-size: 12px;
     text-align: center;
  }
 
@@ -739,6 +742,82 @@ p {
     margin: 0 24px 32px 28px;
     text-align: center;
 }
+
+/* 
+///////////////////////////////////
+/////// ACCREDITATION LOGOS ///////
+///////////////////////////////////
+ */
+
+ .accreditation-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+}
+
+.accreditation-img {
+    margin: 0 64px;
+}
+
+/* 
+/////////////////////////////
+/////// MEMBER CARDS ////////
+/////////////////////////////
+ */
+
+ .members-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .member-card {
+    background-color: var(--light-grey);
+    border-radius: 32px;
+    padding: 16px;
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 20px 0;
+ }
+
+ .member-img {
+    height: 352px;
+    border-radius: 16px;
+ }
+
+ .member-info {
+    width: 512px;
+    margin: 0 0 0 8px;
+    display: flex;
+    flex-direction: column;
+ }
+
+ .member-name {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--yellow);
+ }
+
+ .member-job-title {
+    margin: 0;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+ }
+
+ .member-description {
+    margin: 0;
+    font-size: 16px;
+    text-align: center;
+ }
 
  /* 
 /////////////////////////////
