@@ -7,8 +7,8 @@
 }
 
 body {
-    /*font-family: "Inria Sans", sans-serif;*/
     font-family: sans-serif;
+    width: 100%;
     margin: 0;
     background-color: var(--med-grey);
     color: var(--white);
@@ -16,7 +16,7 @@ body {
 
 h1 {
     margin: 16px 16px 0px 16px;
-    font-size: 36px;
+    font-size: 24px;
     font-weight: bold;
     color: var(--yellow);
 }
@@ -30,6 +30,7 @@ h2 {
 
 p {
     margin: 0px 16px 0px 16px;
+    font-size: 12px;
 }
 
 /* 
@@ -39,7 +40,7 @@ p {
  */
 
 #banner {
-    height: 100px;
+    height: 50px;
     width: 100%;
     position: fixed;
     top: 0;
@@ -47,16 +48,16 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
+    padding: 0 10px;
     z-index: 100;
 }
 
 .logo-link {
-    height: inherit;
+    height: 100%;
 }
 
 #logo {
-    height: inherit;
+    height: 100%;
 }
 
 #nav-bar {
@@ -64,19 +65,20 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 24px;
-    margin: 0 20px;
+    padding: 0;
+    margin: 0;
 }
 
 .nav-bar-item {
     height: 100%;
-    width: 120px;
+    width: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 16px;
+    font-size: 8px;
     color: var(--white);
     text-decoration: none;
+    text-align: center;
 }
 
 .selected-item, .nav-bar-item:hover {
@@ -87,8 +89,7 @@ p {
 
 #content-body {
     margin-top: 132px;
-    padding: 0 16%;
-    min-width: 700px;
+    padding: 0;
 }
 
 /* 
@@ -97,13 +98,13 @@ p {
 /////////////////////////////
  */
 
-#slogan-banner {
+ #slogan-banner {
     margin-left: 0;
     margin-right: 0;
     position:absolute;
-    top: 100px;
+    top: 50px;
     left: 0;
-    height: 500px;
+    height: 252px;
     width: 100%;
     background-image: url(images/lightbulb.jpg);
     background-position: center;
@@ -114,17 +115,18 @@ p {
 }
 
 #slogan {
-    font-size: 24px;
+    font-size: 16px;
     font-weight: bold;
     background-color: var(--med-grey);
     width: fit-content;
     height: fit-content;
-    padding: 16px 48px;
+    padding: 8px 24px;
     border-radius: 32px;
+    text-align: center;
 }
 
 .content-start {
-    margin-top: 632px;
+    margin-top: 316px;
 }
 
 /* 
@@ -133,19 +135,21 @@ p {
 /////////////////////////////
  */
 
-.services-row {
+#services-container {
     display: flex;
     justify-content: center;
-    padding: 32px 0;
+    padding: 0;
+    flex-wrap: wrap;
 }
+
 .service-card {
-    width: 240px;
+    width: 120px;
     background-color: var(--light-grey);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0 32px;
+    margin: 16px;
     border-radius: 16px;
 }
 
@@ -161,8 +165,8 @@ p {
 }
 
 .service-img {
-    margin: 32px 0 32px 0;
-    width: 100px;
+    margin: 16px 0 16px 0;
+    width: 50px;
 }
 
 .service-name {
@@ -171,8 +175,8 @@ p {
 }
 
 .service-text {
-    font-size: 16px;
-    margin: 0 24px 32px 28px;
+    font-size: 12px;
+    margin: 0 12px 16px 12px;
     text-align: center;
 }
 
@@ -386,6 +390,366 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 18px;
+    margin: 0;
+}
+
+ .contact-card {
+    background-color: var(--light-grey);
+    width: fit-content;
+    padding: 16px;
+    border-radius: 16px;
+ }
+
+ .contact-entry {
+    display: flex;
+    align-items: center;
+    margin: 0 0 4px 0;
+    color: var(--white);
+    text-decoration: none;
+ }
+
+ .contact-img {
+    width: 28px;
+    height: 28px;
+    background-size: contain;
+    transition: all 0.4s ease;
+    margin: 0;
+ }
+
+.contact-text {
+    font-size: 16px;
+    margin: 0 0 0 px;
+    height: fit-content;
+ }
+
+.contact-entry:hover .text-phone, .contact-entry:hover .text-email {
+    transition: all 0.4s ease;
+    color: var(--yellow);
+}
+
+.img-phone {
+    display: inline-block;
+    position: relative;
+    background: url(images/icons/phone.png) no-repeat;
+    background-size: cover;
+ }
+ .img-phone span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: url(images/icons/phone.png) no-repeat;
+    background-size: cover;
+    background-position: right;
+    opacity: 0;
+ }
+ .contact-entry:hover .img-phone span {
+    transition: all 0.4s ease;
+    background-color: var(--light-grey);
+    opacity: 1;
+ }
+
+ .img-email {
+    display: inline-block;
+    position: relative;
+    background: url(images/icons/email.png) no-repeat;
+    background-size: cover;
+ }
+ .img-email span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: url(images/icons/email.png) no-repeat;
+    background-size: cover;
+    background-position: right;
+    opacity: 0;
+ }
+ .contact-entry:hover .img-email span {
+    transition: all 0.4s ease;
+    background-color: var(--light-grey);
+    opacity: 1;
+ }
+
+.img-location {
+    background-image: url(images/icons/location.png);
+ }
+
+ .contact-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .contact-btn-img {
+    margin: 0 16px;
+    width: 32px;
+    height: 32px;
+    background-size: contain;
+ }
+
+ .img-whatsapp {
+    display: inline-block;
+    position: relative;
+    background: url(images/icons/whatsapp.png) no-repeat;
+    background-size: cover;
+ }
+ .img-whatsapp span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: url(images/icons/whatsapp.png) no-repeat;
+    background-size: cover;
+    background-position: right;
+    opacity: 0;
+ }
+ .img-whatsapp:hover span {
+    transition: all 0.4s ease;
+    background-color: var(--light-grey);
+    opacity: 1;
+ }
+
+ .img-facebook {
+    display: inline-block;
+    position: relative;
+    background: url(images/icons/facebook.png) no-repeat;
+    background-size: cover;
+ }
+ .img-facebook span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: url(images/icons/facebook.png) no-repeat;
+    background-size: cover;
+    background-position: right;
+    opacity: 0;
+ }
+ .img-facebook:hover span {
+    transition: all 0.4s ease;
+    background-color: var(--light-grey);
+    opacity: 1;
+ }
+
+ .img-instagram {
+    display: inline-block;
+    position: relative;
+    background: url(images/icons/instagram.png) no-repeat;
+    background-size: cover;
+ }
+ .img-instagram span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: url(images/icons/instagram.png) no-repeat;
+    background-size: cover;
+    background-position: right;
+    opacity: 0;
+ }
+ .img-instagram:hover span {
+    transition: all 0.4s ease;
+    background-color: var(--light-grey);
+    opacity: 1;
+ }
+
+/* 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////// DESKTOP ///////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+@media only screen and (min-width: 1000px) {
+    body {
+        font-family: sans-serif;
+        width: 100%;
+        margin: 0;
+        background-color: var(--med-grey);
+        color: var(--white);
+    }
+    
+    h1 {
+        margin: 16px 16px 0px 16px;
+        font-size: 36px;
+        font-weight: bold;
+        color: var(--yellow);
+    }
+    
+    h2 {
+        margin: 8px 16px 0px 16px;
+        font-size: 24px;
+        font-weight: bold;
+        color: var(--yellow);
+    }
+    
+    p {
+        font-size: 16px;
+        margin: 0px 16px 0px 16px;
+    }    
+
+    /* 
+/////////////////////////////
+///// NAVIGATION BANNER /////
+/////////////////////////////
+ */
+
+#banner {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: var(--dark-grey);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 100;
+}
+
+.logo-link {
+    height: inherit;
+}
+
+#logo {
+    height: inherit;
+}
+
+#nav-bar {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 24px;
+    margin: 0 20px;
+}
+
+.nav-bar-item {
+    height: 100%;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: var(--white);
+    text-decoration: none;
+}
+
+.selected-item, .nav-bar-item:hover {
+    color: var(--yellow);
+    background-color: var(--med-grey);
+    transition: all 0.4s ease;
+}
+
+#content-body {
+    margin-top: 132px;
+    padding: 0 16%;
+    min-width: 700px;
+}
+
+/* 
+/////////////////////////////
+/////// SLOGAN BANNER ///////
+/////////////////////////////
+ */
+
+ #slogan-banner {
+    margin-left: 0;
+    margin-right: 0;
+    position:absolute;
+    top: 100px;
+    left: 0;
+    height: 500px;
+    width: 100%;
+    background-image: url(images/lightbulb.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#slogan {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: var(--med-grey);
+    width: fit-content;
+    height: fit-content;
+    padding: 16px 48px;
+    border-radius: 32px;
+}
+
+.content-start {
+    margin-top: 632px;
+}
+
+/* 
+/////////////////////////////
+/////// SERVICE CARDS ///////
+/////////////////////////////
+ */
+
+ #service-container {
+    display: flex;
+    justify-content: center;
+    padding: 32px 0;
+    flex-wrap: wrap;
+ }
+
+.service-card {
+    width: 240px;
+    background-color: var(--light-grey);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 16px;
+    border-radius: 16px;
+}
+
+.service-card-detailed {
+    width: 484px;
+    background-color: var(--light-grey);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 32px;
+    border-radius: 16px;
+}
+
+.service-img {
+    margin: 32px 0 32px 0;
+    width: 100px;
+}
+
+.service-name {
+    margin: 0 0 16px 0;
+    color: var(--yellow);
+}
+
+.service-text {
+    font-size: 16px;
+    margin: 0 24px 32px 28px;
+    text-align: center;
+}
+
+ /* 
+/////////////////////////////
+/////// CONTACT CARDS ///////
+/////////////////////////////
+ */
+
+ .contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 16px;
     margin: 64px;
 }
@@ -555,3 +919,4 @@ p {
     background-color: var(--light-grey);
     opacity: 1;
  }
+}
