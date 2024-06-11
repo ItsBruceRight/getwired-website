@@ -33,12 +33,7 @@ p {
     margin: 0px 16px 0px 16px;
     font-size: 12px;
 }
-
-/* 
-/////////////////////////////
-///// NAVIGATION BANNER /////
-/////////////////////////////
- */
+/* #region NAVIGATION BANNER */
 
 #banner {
     height: 50px;
@@ -93,12 +88,9 @@ p {
     margin-top: 66px;
     padding: 0;
 }
+/* #endregion */
 
-/* 
-/////////////////////////////
-/////// SLOGAN BANNER ///////
-/////////////////////////////
-*/
+/* #region SLOGAN BANNER */
 
 #slogan-banner {
     margin-left: 0;
@@ -130,12 +122,9 @@ p {
 .content-start {
     margin-top: 316px;
 }
+/* #endregion */
 
-/* 
-/////////////////////////////
-/////// SERVICE CARDS ///////
-/////////////////////////////
-*/
+/* #region SERVICE CARDS */
 
 #services-container {
     display: flex;
@@ -198,13 +187,9 @@ p {
     font-size: 12px;
     margin: 0 12px 16px 12px;
 }
+/* #endregion */
 
-/* 
-///////////////////////////////////
-/////// ACCREDITATION LOGOS ///////
-///////////////////////////////////
-*/
-
+/* #region ACCREDITATION LOGOS */
 .accreditation-container {
     display: flex;
     align-items: center;
@@ -217,12 +202,9 @@ p {
     height: 60px;
     width: 60px;
 }
+/* #endregion */
 
-/* 
-/////////////////////////////
-/////// MEMBER CARDS ////////
-/////////////////////////////
-*/
+/* #region MEMBER CARDS */
 
 .members-container {
     display: flex;
@@ -277,12 +259,9 @@ p {
     font-size: 12px;
     text-align: center;
 }
+/* #endregion */
 
-/* 
-/////////////////////////////
-/////// PROJECT CARDS ///////
-/////////////////////////////
-*/
+/* #region PROJECT CARDS */
 
 .projects-container {
     margin-left: 0;
@@ -402,12 +381,9 @@ p {
     from {opacity: .4}
     to {opacity: 1}
 }
+/* #endregion */
 
-/* 
-/////////////////////////////
-/////// CONTACT CARDS ///////
-/////////////////////////////
-*/
+/* #region CONTACT CARDS */
 
 .contact-container {
     display: flex;
@@ -582,12 +558,9 @@ p {
     background-color: var(--light-grey);
     opacity: 1;
 }
+/* #endregion */
 
-/* 
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////// DESKTOP ///////////////////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-*/
+/* #region DESKTOP-FRIENDLY */
 
 @media only screen and (min-width: 1000px) {
     
@@ -603,12 +576,7 @@ p {
         font-size: 16px;
     }
 
-    /* 
-    /////////////////////////////
-    ///// NAVIGATION BANNER /////
-    /////////////////////////////
-    */
-
+    /* #region NAVIGATION BANNER */
     #banner {
         height: 100px;
         padding: 0 20px;
@@ -629,13 +597,9 @@ p {
         padding: 0 16%;
         min-width: 700px;
     }
+    /* #endregion */
 
-    /* 
-    /////////////////////////////
-    /////// SLOGAN BANNER ///////
-    /////////////////////////////
-    */
-
+    /* #region SLOGAN BANNER */
     #slogan-banner {
         top: 100px;
         height: 500px;
@@ -649,13 +613,9 @@ p {
     .content-start {
         margin-top: 632px;
     }
+    /* #endregion */
 
-    /* 
-    /////////////////////////////
-    /////// SERVICE CARDS ///////
-    /////////////////////////////
-    */
-
+    /* #region SERVICE CARDS */
     #services-container {
         padding: 16px 0;
         max-width: 800px;
@@ -689,23 +649,15 @@ p {
         font-size: 16px;
         margin: 0 24px 32px 28px;
     }
+    /* #endregion */
 
-    /* 
-    ///////////////////////////////////
-    /////// ACCREDITATION LOGOS ///////
-    ///////////////////////////////////
-    */
-
+    /* #region ACCREDITATION LOGOS */
     .accreditation-img {
         margin: 0 64px;
     }
+    /* #endregion */
 
-    /* 
-    /////////////////////////////
-    /////// MEMBER CARDS ////////
-    /////////////////////////////
-    */
-
+    /* #region MEMBER CARDS */
     .member-card {
         border-radius: 32px;
         padding: 16px;
@@ -732,13 +684,9 @@ p {
     .member-description {
         font-size: 16px;
     }
+    /* #endregion */
 
-    /* 
-    /////////////////////////////
-    /////// PROJECT CARDS ///////
-    /////////////////////////////
-    */
-
+    /* #region PROJECT CARDS */
     .projects-container {
         margin: 32px;
     }
@@ -767,13 +715,9 @@ p {
         height: 15px;
         width: 15px;
     }
+    /* #endregion */
 
-    /* 
-    /////////////////////////////
-    /////// CONTACT CARDS ///////
-    /////////////////////////////
-    */
-
+    /* #region CONTACT CARDS */
     .contact-container {
         padding: 16px;
         margin: 64px;
@@ -801,4 +745,6 @@ p {
         width: 40px;
         height: 40px;
     }
+    /* #endregion */
 }
+/* #endregion */
