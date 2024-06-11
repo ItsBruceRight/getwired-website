@@ -98,9 +98,9 @@ p {
 /////////////////////////////
 /////// SLOGAN BANNER ///////
 /////////////////////////////
- */
+*/
 
- #slogan-banner {
+#slogan-banner {
     margin-left: 0;
     margin-right: 0;
     position:absolute;
@@ -135,7 +135,7 @@ p {
 /////////////////////////////
 /////// SERVICE CARDS ///////
 /////////////////////////////
- */
+*/
 
 #services-container {
     display: flex;
@@ -184,7 +184,6 @@ p {
 }
 
 .service-name {
-    margin: 0 0 16px 0;
     color: var(--yellow);
     margin: 0 0 4px 0;
 }
@@ -204,7 +203,7 @@ p {
 ///////////////////////////////////
 /////// ACCREDITATION LOGOS ///////
 ///////////////////////////////////
- */
+*/
 
 .accreditation-container {
     display: flex;
@@ -223,17 +222,17 @@ p {
 /////////////////////////////
 /////// MEMBER CARDS ////////
 /////////////////////////////
- */
+*/
 
- .members-container {
+.members-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 8px 0 0 0; 
- }
+}
 
- .member-card {
+.member-card {
     background-color: var(--light-grey);
     border-radius: 16px;
     padding: 8px;
@@ -243,47 +242,48 @@ p {
     justify-content: center;
     align-items: center;
     margin: 0 0 16px 0;
- }
+}
 
- .member-img {
+.member-img {
     height: 176px;
     border-radius: 8px;
- }
+}
 
- .member-info {
+.member-info {
     width: 200px;
     margin: 0 0 0 8px;
     display: flex;
     flex-direction: column;
- }
+}
 
- .member-name {
+.member-name {
     margin: 0;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
     color: var(--yellow);
- }
+}
 
- .member-job-title {
+.member-job-title {
     margin: 0;
     font-size: 16px;
     font-weight: normal;
     font-style: italic;
     text-align: center;
- }
+}
 
- .member-description {
+.member-description {
     margin: 0;
     font-size: 12px;
     text-align: center;
- }
+}
 
- /* 
+/* 
 /////////////////////////////
 /////// PROJECT CARDS ///////
 /////////////////////////////
- */
+*/
+
 .projects-container {
     margin-left: 0;
     margin-right: 0;
@@ -403,11 +403,11 @@ p {
     to {opacity: 1}
 }
 
- /* 
+/* 
 /////////////////////////////
 /////// CONTACT CARDS ///////
 /////////////////////////////
- */
+*/
 
 .contact-container {
     display: flex;
@@ -417,34 +417,34 @@ p {
     margin: 0;
 }
 
- .contact-card {
+.contact-card {
     background-color: var(--light-grey);
     width: fit-content;
     padding: 16px;
     border-radius: 16px;
- }
+}
 
- .contact-entry {
+.contact-entry {
     display: flex;
     align-items: center;
     margin: 0 0 4px 0;
     color: var(--white);
     text-decoration: none;
- }
+}
 
- .contact-img {
+.contact-img {
     width: 28px;
     height: 28px;
     background-size: contain;
     transition: all 0.4s ease;
     margin: 0;
- }
+}
 
 .contact-text {
     font-size: 16px;
-    margin: 0 0 0 px;
+    margin: 0 0 0 8px;
     height: fit-content;
- }
+}
 
 .contact-entry:hover .text-phone, .contact-entry:hover .text-email {
     transition: all 0.4s ease;
@@ -456,8 +456,8 @@ p {
     position: relative;
     background: url(images/icons/phone.png) no-repeat;
     background-size: cover;
- }
- .img-phone span {
+}
+.img-phone span {
     position: absolute;
     top: 0;
     left: 0;
@@ -467,20 +467,20 @@ p {
     background-size: cover;
     background-position: right;
     opacity: 0;
- }
- .contact-entry:hover .img-phone span {
+}
+.contact-entry:hover .img-phone span {
     transition: all 0.4s ease;
     background-color: var(--light-grey);
     opacity: 1;
- }
+}
 
- .img-email {
+.img-email {
     display: inline-block;
     position: relative;
     background: url(images/icons/email.png) no-repeat;
     background-size: cover;
- }
- .img-email span {
+}
+.img-email span {
     position: absolute;
     top: 0;
     left: 0;
@@ -490,37 +490,37 @@ p {
     background-size: cover;
     background-position: right;
     opacity: 0;
- }
- .contact-entry:hover .img-email span {
+}
+.contact-entry:hover .img-email span {
     transition: all 0.4s ease;
     background-color: var(--light-grey);
     opacity: 1;
- }
+}
 
 .img-location {
     background-image: url(images/icons/location.png);
- }
+}
 
- .contact-buttons {
+.contact-buttons {
     display: flex;
     justify-content: center;
     align-items: center;
- }
+}
 
- .contact-btn-img {
+.contact-btn-img {
     margin: 0 16px;
     width: 32px;
     height: 32px;
     background-size: contain;
- }
+}
 
- .img-whatsapp {
+.img-whatsapp {
     display: inline-block;
     position: relative;
     background: url(images/icons/whatsapp.png) no-repeat;
     background-size: cover;
- }
- .img-whatsapp span {
+}
+.img-whatsapp span {
     position: absolute;
     top: 0;
     left: 0;
@@ -530,20 +530,20 @@ p {
     background-size: cover;
     background-position: right;
     opacity: 0;
- }
- .img-whatsapp:hover span {
+}
+.img-whatsapp:hover span {
     transition: all 0.4s ease;
     background-color: var(--light-grey);
     opacity: 1;
- }
+}
 
- .img-facebook {
+.img-facebook {
     display: inline-block;
     position: relative;
     background: url(images/icons/facebook.png) no-repeat;
     background-size: cover;
- }
- .img-facebook span {
+}
+.img-facebook span {
     position: absolute;
     top: 0;
     left: 0;
@@ -553,20 +553,20 @@ p {
     background-size: cover;
     background-position: right;
     opacity: 0;
- }
- .img-facebook:hover span {
+}
+.img-facebook:hover span {
     transition: all 0.4s ease;
     background-color: var(--light-grey);
     opacity: 1;
- }
+}
 
- .img-instagram {
+.img-instagram {
     display: inline-block;
     position: relative;
     background: url(images/icons/instagram.png) no-repeat;
     background-size: cover;
- }
- .img-instagram span {
+}
+.img-instagram span {
     position: absolute;
     top: 0;
     left: 0;
@@ -576,12 +576,12 @@ p {
     background-size: cover;
     background-position: right;
     opacity: 0;
- }
- .img-instagram:hover span {
+}
+.img-instagram:hover span {
     transition: all 0.4s ease;
     background-color: var(--light-grey);
     opacity: 1;
- }
+}
 
 /* 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -590,575 +590,215 @@ p {
 */
 
 @media only screen and (min-width: 1000px) {
-    body {
-        font-family: sans-serif;
-        width: 100%;
-        margin: 0;
-        background-color: var(--med-grey);
-        color: var(--white);
-    }
     
     h1 {
-        margin: 16px 16px 0px 16px;
         font-size: 36px;
-        font-weight: bold;
-        color: var(--yellow);
     }
     
     h2 {
-        margin: 8px 16px 0px 16px;
         font-size: 24px;
-        font-weight: bold;
-        color: var(--yellow);
     }
     
     p {
         font-size: 16px;
-        margin: 0px 16px 0px 16px;
-    }    
+    }
 
     /* 
-/////////////////////////////
-///// NAVIGATION BANNER /////
-/////////////////////////////
- */
+    /////////////////////////////
+    ///// NAVIGATION BANNER /////
+    /////////////////////////////
+    */
 
-#banner {
-    height: 100px;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    background-color: var(--dark-grey);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-    z-index: 100;
-}
+    #banner {
+        height: 100px;
+        padding: 0 20px;
+    }
 
-.logo-link {
-    height: inherit;
-}
+    #nav-bar {
+        padding: 0 24px;
+        margin: 0 20px;
+    }
 
-#logo {
-    height: inherit;
-}
+    .nav-bar-item {
+        width: 120px;
+        font-size: 16px;
+    }
 
-#nav-bar {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 24px;
-    margin: 0 20px;
-}
+    #content-body {
+        margin-top: 132px;
+        padding: 0 16%;
+        min-width: 700px;
+    }
 
-.nav-bar-item {
-    height: 100%;
-    width: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 16px;
-    color: var(--white);
-    text-decoration: none;
-}
+    /* 
+    /////////////////////////////
+    /////// SLOGAN BANNER ///////
+    /////////////////////////////
+    */
 
-.selected-item, .nav-bar-item:hover {
-    color: var(--yellow);
-    background-color: var(--med-grey);
-    transition: all 0.4s ease;
-}
+    #slogan-banner {
+        top: 100px;
+        height: 500px;
+    }
 
-#content-body {
-    margin-top: 132px;
-    padding: 0 16%;
-    min-width: 700px;
-}
+    #slogan {
+        font-size: 24px;
+        padding: 16px 48px;
+    }
 
-/* 
-/////////////////////////////
-/////// SLOGAN BANNER ///////
-/////////////////////////////
- */
+    .content-start {
+        margin-top: 632px;
+    }
 
- #slogan-banner {
-    margin-left: 0;
-    margin-right: 0;
-    position:absolute;
-    top: 100px;
-    left: 0;
-    height: 500px;
-    width: 100%;
-    background-image: url(images/lightbulb.jpg);
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    /* 
+    /////////////////////////////
+    /////// SERVICE CARDS ///////
+    /////////////////////////////
+    */
 
-#slogan {
-    font-size: 24px;
-    font-weight: bold;
-    background-color: var(--med-grey);
-    width: fit-content;
-    height: fit-content;
-    padding: 16px 48px;
-    border-radius: 32px;
-}
+    #services-container {
+        padding: 16px 0;
+        max-width: 800px;
+    }
 
-.content-start {
-    margin-top: 632px;
-}
+    #services-detailed-container {
+        padding: 16px 0;
+        max-width: none;
+    }
 
-/* 
-/////////////////////////////
-/////// SERVICE CARDS ///////
-/////////////////////////////
- */
+    .service-card {
+        width: 240px;
+        margin: 32px;
+    }
 
- #services-container {
-    display: flex;
-    justify-content: center;
-    padding: 16px 0;
-    flex-wrap: wrap;
-    max-width: 800px;
- }
+    .service-card-detailed {
+        width: 400px;
+        margin: 12px;
+    }
 
- .services-row {
-    display: flex;
-    justify-content: center;
-    padding: 32px 0;
- }
+    .service-img {
+        margin: 32px 0 32px 0;
+        width: 100px;
+    }
 
- #services-detailed-container {
-    display: flex;
-    justify-content: center;
-    padding: 16px 0;
-    flex-wrap: wrap;
-    max-width: none;
- }
+    .service-name {
+        margin: 0 0 16px 0;
+    }
 
-.service-card {
-    width: 240px;
-    background-color: var(--light-grey);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 32px;
-    border-radius: 16px;
-}
+    .service-text {
+        font-size: 16px;
+        margin: 0 24px 32px 28px;
+    }
 
-.service-card-detailed {
-    width: 400px;
-    background-color: var(--light-grey);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 12px;
-    border-radius: 16px;
-}
+    /* 
+    ///////////////////////////////////
+    /////// ACCREDITATION LOGOS ///////
+    ///////////////////////////////////
+    */
 
-.service-img {
-    margin: 32px 0 32px 0;
-    width: 100px;
-}
+    .accreditation-img {
+        margin: 0 64px;
+    }
 
-.service-name {
-    margin: 0 0 16px 0;
-    color: var(--yellow);
-}
+    /* 
+    /////////////////////////////
+    /////// MEMBER CARDS ////////
+    /////////////////////////////
+    */
 
-.service-list-container {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
+    .member-card {
+        border-radius: 32px;
+        padding: 16px;
+        margin: 0 0 20px 0;
+    }
 
-.service-text {
-    font-size: 16px;
-    margin: 0 24px 32px 28px;
-}
+    .member-img {
+        height: 352px;
+        border-radius: 16px;
+    }
 
-/* 
-///////////////////////////////////
-/////// ACCREDITATION LOGOS ///////
-///////////////////////////////////
- */
+    .member-info {
+        width: 512px;
+    }
 
- .accreditation-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 8px 16px;
-}
+    .member-name {
+        font-size: 24px;
+    }
 
-.accreditation-img {
-    margin: 0 64px;
-}
+    .member-job-title {
+        font-size: 20px;
+    }
 
-/* 
-/////////////////////////////
-/////// MEMBER CARDS ////////
-/////////////////////////////
- */
+    .member-description {
+        font-size: 16px;
+    }
 
- .members-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
- }
+    /* 
+    /////////////////////////////
+    /////// PROJECT CARDS ///////
+    /////////////////////////////
+    */
 
- .member-card {
-    background-color: var(--light-grey);
-    border-radius: 32px;
-    padding: 16px;
-    height: fit-content;
-    width: fit-content;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 0 20px 0;
- }
-
- .member-img {
-    height: 352px;
-    border-radius: 16px;
- }
-
- .member-info {
-    width: 512px;
-    margin: 0 0 0 8px;
-    display: flex;
-    flex-direction: column;
- }
-
- .member-name {
-    margin: 0;
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-    color: var(--yellow);
- }
-
- .member-job-title {
-    margin: 0;
-    font-size: 20px;
-    font-weight: normal;
-    font-style: italic;
-    text-align: center;
- }
-
- .member-description {
-    margin: 0;
-    font-size: 16px;
-    text-align: center;
- }
-
-  /* 
-/////////////////////////////
-/////// PROJECT CARDS ///////
-/////////////////////////////
- */
-.projects-container {
-    margin-left: 0;
-    margin-right: 0;
-    position:absolute;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 32px;
-    flex-wrap: wrap;
-}
+    .projects-container {
+        margin: 32px;
+    }
  
-.project-card {
-    background-color: var(--light-grey);
-    width: 496px;
-    min-width: 496px;
-    padding: 16px;
-    display: flex;
-    flex-direction: column;
-    border-radius: 32px;
-    margin: 16px 16px;
-}
+    .project-card {
+        width: 496px;
+        min-width: 496px;
+        border-radius: 32px;
+        margin: 16px 16px;
+    }
 
-.project-name {
-    text-align: center;
-    margin: 0;
-    color: var(--yellow);
-}
+    /* PROJECT SLIDESHOW */
 
-.project-description {
-    width: 100%;
-    margin: 0;
-    text-align: center;
-}
+    .project-slideshow-container {
+        margin: 16px 0;
+    }
 
-/* PROJECT SLIDESHOW */
+    .project-img {
+        height: 345px;
+        border-radius: 16px;
+    }
 
-.project-slideshow-container {
-    width: 100%;
-    position: relative;
-    margin: 16px 0;
-}
+    /* Dots */
 
-/* Hide images by default */
-.project-slides-1, .project-slides-2, .project-slides-3, .project-slides-4 {
-    display: none;
-}
+    .dot-1, .dot-2, .dot-3, .dot-4 {
+        height: 15px;
+        width: 15px;
+    }
 
-.project-img {
-    width: 100%;
-    height: 345px;
-    object-fit: cover;
-    border-radius: 16px;
-}
+    /* 
+    /////////////////////////////
+    /////// CONTACT CARDS ///////
+    /////////////////////////////
+    */
 
-/* Next & Previous buttons */
-.prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: var(--white);
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-}
+    .contact-container {
+        padding: 16px;
+        margin: 64px;
+    }
 
-/* Position Next button to the right */
-.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
+    .contact-card {
+        padding: 32px;
+    }
 
-/* On hover, add black background */
-.prev:hover, .next:hover {
-    color: var(--yellow);
-    background-color: rgba(0,0,0,0.5);
-}
+    .contact-entry {
+        margin: 0 0 8px 0;
+    }
 
-/* Dots */
+    .contact-img {
+        width: 32px;
+        height: 32px;
+    }
 
-.dot-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 0 8px 0;
-}
+    .contact-text {
+        font-size: 20px;
+        margin: 0 0 0 16px;
+    }
 
-.dot-1, .dot-2, .dot-3, .dot-4 {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.4s ease;
-}
-
-.active, .dot:hover {
-    background-color: var(--yellow);
-}
-
-/* Fading animation */
-.fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-}
-
- /* 
-/////////////////////////////
-/////// CONTACT CARDS ///////
-/////////////////////////////
- */
-
- .contact-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 16px;
-    margin: 64px;
-}
-
- .contact-card {
-    background-color: var(--light-grey);
-    width: fit-content;
-    padding: 32px;
-    border-radius: 16px;
- }
-
- .contact-entry {
-    display: flex;
-    align-items: center;
-    margin: 0 0 8px 0;
-    color: var(--white);
-    text-decoration: none;
- }
-
- .contact-img {
-    width: 32px;
-    height: 32px;
-    background-size: contain;
-    transition: all 0.4s ease;
-    margin: 0;
- }
-
-.contact-text {
-    font-size: 20px;
-    margin: 0 0 0 16px;
-    height: fit-content;
- }
-
-.contact-entry:hover .text-phone, .contact-entry:hover .text-email {
-    transition: all 0.4s ease;
-    color: var(--yellow);
-}
-
-.img-phone {
-    display: inline-block;
-    position: relative;
-    background: url(images/icons/phone.png) no-repeat;
-    background-size: cover;
- }
- .img-phone span {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background: url(images/icons/phone.png) no-repeat;
-    background-size: cover;
-    background-position: right;
-    opacity: 0;
- }
- .contact-entry:hover .img-phone span {
-    transition: all 0.4s ease;
-    background-color: var(--light-grey);
-    opacity: 1;
- }
-
- .img-email {
-    display: inline-block;
-    position: relative;
-    background: url(images/icons/email.png) no-repeat;
-    background-size: cover;
- }
- .img-email span {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background: url(images/icons/email.png) no-repeat;
-    background-size: cover;
-    background-position: right;
-    opacity: 0;
- }
- .contact-entry:hover .img-email span {
-    transition: all 0.4s ease;
-    background-color: var(--light-grey);
-    opacity: 1;
- }
-
-.img-location {
-    background-image: url(images/icons/location.png);
- }
-
- .contact-buttons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
-
- .contact-btn-img {
-    margin: 0 16px;
-    width: 40px;
-    height: 40px;
-    background-size: contain;
- }
-
- .img-whatsapp {
-    display: inline-block;
-    position: relative;
-    background: url(images/icons/whatsapp.png) no-repeat;
-    background-size: cover;
- }
- .img-whatsapp span {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background: url(images/icons/whatsapp.png) no-repeat;
-    background-size: cover;
-    background-position: right;
-    opacity: 0;
- }
- .img-whatsapp:hover span {
-    transition: all 0.4s ease;
-    background-color: var(--light-grey);
-    opacity: 1;
- }
-
- .img-facebook {
-    display: inline-block;
-    position: relative;
-    background: url(images/icons/facebook.png) no-repeat;
-    background-size: cover;
- }
- .img-facebook span {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background: url(images/icons/facebook.png) no-repeat;
-    background-size: cover;
-    background-position: right;
-    opacity: 0;
- }
- .img-facebook:hover span {
-    transition: all 0.4s ease;
-    background-color: var(--light-grey);
-    opacity: 1;
- }
-
- .img-instagram {
-    display: inline-block;
-    position: relative;
-    background: url(images/icons/instagram.png) no-repeat;
-    background-size: cover;
- }
- .img-instagram span {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background: url(images/icons/instagram.png) no-repeat;
-    background-size: cover;
-    background-position: right;
-    opacity: 0;
- }
- .img-instagram:hover span {
-    transition: all 0.4s ease;
-    background-color: var(--light-grey);
-    opacity: 1;
- }
+    .contact-btn-img {
+        width: 40px;
+        height: 40px;
+    }
 }
