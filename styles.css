@@ -35,7 +35,6 @@ p {
 }
 
 /* #region NAVIGATION BANNER    */
-
 #banner {
     height: 50px;
     width: 100%;
@@ -92,7 +91,6 @@ p {
 /* #endregion */
 
 /* #region SLOGAN BANNER        */
-
 #slogan-banner {
     margin-left: 0;
     margin-right: 0;
@@ -126,7 +124,6 @@ p {
 /* #endregion */
 
 /* #region SERVICE CARDS        */
-
 #services-container {
     display: flex;
     justify-content: center;
@@ -206,7 +203,6 @@ p {
 /* #endregion */
 
 /* #region MEMBER CARDS         */
-
 .members-container {
     display: flex;
     flex-direction: column;
@@ -263,7 +259,6 @@ p {
 /* #endregion */
 
 /* #region PROJECT CARDS        */
-
 .projects-container {
     margin-left: 0;
     margin-right: 0;
@@ -385,7 +380,6 @@ p {
 /* #endregion */
 
 /* #region CONTACT CARDS        */
-
 .contact-container {
     display: flex;
     justify-content: center;
@@ -562,7 +556,6 @@ p {
 /* #endregion */
 
 /* #region DESKTOP-FRIENDLY     */
-
 @media only screen and (min-width: 1000px) {
     
     h1 {
