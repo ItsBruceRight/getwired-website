@@ -606,6 +606,40 @@ p {
     }
     /* #endregion */
 
+    /* #region SERVICE CARDS        */
+    #services-container {
+        max-width: 800px;
+    }
+
+    #services-detailed-container {
+        padding: 16px 0;
+    }
+
+    .service-card {
+        width: 240px;
+        margin: 16px;
+    }
+
+    .service-card-detailed {
+        width: 316px;
+        margin: 12px;
+    }
+
+    .service-img {
+        margin: 32px 0 32px 0;
+        width: 100px;
+    }
+
+    .service-name {
+        margin: 0 0 16px 0;
+    }
+
+    .service-text {
+        font-size: 16px;
+        margin: 0 24px 32px 28px;
+    }
+    /* #endregion */
+
     /* #region ACCREDITATION LOGOS  */
     .accreditation-img {
         margin: 0 64px;
@@ -716,20 +750,6 @@ p {
     .service-card-detailed {
         width: 400px;
         margin: 12px;
-    }
-
-    .service-img {
-        margin: 32px 0 32px 0;
-        width: 100px;
-    }
-
-    .service-name {
-        margin: 0 0 16px 0;
-    }
-
-    .service-text {
-        font-size: 16px;
-        margin: 0 24px 32px 28px;
     }
     /* #endregion */
 
