@@ -1,3 +1,8 @@
+const toggleButton = document.getElementsByClassName("toggle-button")[0];
+const navbarLinks = document.getElementsByClassName("navbar-links")[0];
+
+toggleButton.addEventListener("click",() => {navbarLinks.classList.toggle("nav-active")});
+
 let slideIndex = [1,1,1,1];
 let slideId = ["project-slides-1","project-slides-2","project-slides-3","project-slides-4"]
 let dotId = ["dot-1","dot-2","dot-3","dot-4"];
