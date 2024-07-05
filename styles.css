@@ -280,15 +280,18 @@ p {
 /* #region ACCREDITATION LOGOS  */
 .accreditation-container {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 8px 16px;
+    padding: 8px;
+    gap: 8px;
+    margin: 8px 16px;
+    border-radius: 16px;
+    background-color: white;
 }
 
 .accreditation-img {
-    margin: 0 16px;
-    height: 60px;
-    width: 60px;
+    height: 100px;
 }
 /* #endregion */
 
@@ -730,12 +733,6 @@ p {
     }
     /* #endregion */
 
-    /* #region ACCREDITATION LOGOS  */
-    .accreditation-img {
-        margin: 0 64px;
-    }
-    /* #endregion */
-
     /* #region MEMBER CARDS         */
     .member-card {
         border-radius: 32px;
@@ -879,6 +876,13 @@ p {
     .service-card-detailed {
         width: 400px;
         margin: 12px;
+    }
+    /* #endregion */
+
+    /* #region ACCREDITATION LOGOS  */
+    .accreditation-container {
+        flex-direction: row;
+        justify-content: space-around;
     }
     /* #endregion */
 
